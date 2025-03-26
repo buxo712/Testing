@@ -1,3 +1,3 @@
 module Secondservice { requires Primaryservice;
-    exports org.echangeforex;
+    exports org.echangeforex;service
 }
