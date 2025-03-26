@@ -1,9 +1,9 @@
 package org.echangeforex;
 
-//public class work {
+public class work {
     private int exchangeRateManager;
 
-  //  public void CurrencyConverter(String exchangeRateManager) {
+    public void CurrencyConverter(String exchangeRateManager) {
        this.exchangeRateManager = Integer.parseInt(exchangeRateManager);
    }
 

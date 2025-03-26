@@ -13,5 +13,5 @@ public class serviceTest {
         exchangeRateService = new service(); // Initialize the service instance
     }
 
-   
+
 }

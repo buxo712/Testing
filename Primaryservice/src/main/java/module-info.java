@@ -1,3 +1,3 @@
 module Primaryservice {
-exports org.initializzation;
+exports org.initializzation.service;
 }
