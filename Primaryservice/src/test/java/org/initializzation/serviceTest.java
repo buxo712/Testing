@@ -8,12 +8,10 @@ public class serviceTest {
 
     private service exchangeRateService;
 
-    @BeforeEach
-    public void setUp() {
-        exchangeRateService = new service(); // Initialize the service instance
+
     }
 
-    @Test
+   @Test
     public void testGetExchangeRateForValidCurrencyPair() {
         // Test known currency pairs
         double usdToUgxRate = exchangeRateService.getExchangeRate("USD/UGX");
