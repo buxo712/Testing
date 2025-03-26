@@ -15,9 +15,9 @@ public class service {
         rates.put("JPY/USD", 0.0091);
     }
 
-//    public double getExchangeRate(String currencyPair) {
-//        return rates.getOrDefault(currencyPair, 1.0); // Default rate to 1.0 if not found
-//    }
+  public double getExchangeRate(String currencyPair) {
+       return rates.getOrDefault(currencyPair, 1.0); // Default rate to 1.0 if not found
+    }
 
 
 
